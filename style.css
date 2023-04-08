@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.img1{
+    background-image: url(Image/image1.png);
+    min-height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+}
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.textbg{
+    background-color: grey ;
+}
+.section_one{
+    text-align: center;
+    color: grey;
+}
+.img2{    
+    background-image: url(Image/image2.png);
+    min-height: 400px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.section_two, .section_three{
+    text-align: center;
+    color: white;
+    background-color: rgb(75, 74, 74);
+}
+.img3{
+    background-image: url(Image/image3.png);
+    min-height: 400px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
